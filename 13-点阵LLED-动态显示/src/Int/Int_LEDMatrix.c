@@ -28,6 +28,15 @@ void Int_LEDMatrix_SetPic(u8 *pic)
     }
 }
 
+void Int_LEDMatrix_Shift(u8 pic)
+{
+    u8 i = 7;
+    for (i = 7; i >= 1; i--) {
+        s_buffer[i] = s_buffer[i - 1];
+    }
+    s_buffer[0] = pic;
+}
+
 void Int_LEDMatrix_Refresh()
 {
     u8 i;
