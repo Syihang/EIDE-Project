@@ -1,5 +1,5 @@
 {
-  "name": "TEMPLATE",
+  "name": "10-定时器",
   "type": "C51",
   "dependenceList": [],
   "srcDirs": [
@@ -12,7 +12,7 @@
     "folders": []
   },
   "miscInfo": {
-    "uid": "b365975f8575b778dd00fc27ab72585c"
+    "uid": "8835cf5bc459012e423cdb7e3e7c055b"
   },
   "targets": {
     "Release": {
